@@ -10,8 +10,8 @@ module.exports = function(deployTarget) {
         },
     },
     s3:{
-      accessKeyId: 'access',
-      secretAccessKey: 'secret',
+      accessKeyId:<IAM USER ACCESS KEY ID>,
+      secretAccessKey: <IAM USER ACCESS KEY>,
       region: 'us-east-1',
       sslEnabled: true,
       Bucket:'dighr-react'
